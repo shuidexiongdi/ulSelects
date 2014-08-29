@@ -46,11 +46,6 @@ INPUT.readonly {
   }
     </script>
   <meta charset="utf-8">
-  <title>JS Bin</title>
-
-<style id="jsbin-css">
-
-</style>
 </head>
 <body>
   <input id='select' ></input>
