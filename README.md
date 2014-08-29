@@ -7,11 +7,11 @@ ul下拉框
 例子：
 
     var optionsValus = [
-      {'value':'86value1','text':'text1'},
-      {'value':'8601value2','text':'text2'},
-      {'value':'860101value3','text':'text3'},
-      {'value':'860102value4','text':'text4'},
-      {'value':'8602value5','text':'text5'}
+      {'value':'80value1','text':'text1'},
+      {'value':'8001value2','text':'text2'},
+      {'value':'800101value3','text':'text3'},
+      {'value':'800102value4','text':'text4'},
+      {'value':'8002value5','text':'text5'}
     ];
         
     $(document).ready(function () {
@@ -24,16 +24,13 @@ ul下拉框
       });
     });
     
-    
-    
-//test
- function getvalue() {
-    console.info($('#select').val());
-   if($('#select').val()) { //some
-    
-     console.info('22222');
-   }
-  }
+    //test
+    function getvalue() {
+        console.info($('#select').val());
+        if($('#select').val()) { //some
+            console.info('22222');
+        }
+    }
 
   <input id='select' ></input>
   <input id='showText' class="readonly" readonly></input>
